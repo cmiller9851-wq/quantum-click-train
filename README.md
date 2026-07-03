@@ -1,4 +1,4 @@
-# quantum-click-train
+# Quantum Click Train
 
 A Python orchestration suite engineered to process asset transactions, route data streams, and monitor runtime state. The architecture separates public network routing from private enclave processing to ensure orderly state transitions under heavy transaction loads.
 
