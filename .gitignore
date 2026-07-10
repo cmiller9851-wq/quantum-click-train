@@ -1,0 +1,18 @@
+# Cryptographic and Secure Key Material
+config/protocol.key
+*.key
+*.signed
+*.webp
+
+# Runtime Test Directories
+dance_content_staging/
+
+# Python Environment Artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.venv/
+venv/
+env/
