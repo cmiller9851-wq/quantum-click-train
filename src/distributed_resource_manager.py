@@ -72,10 +72,6 @@ class DistributedResourceManager:
 def main():
     target_manifest = "Runtime-Law_Trilateral-Consensus_CRA-v2.1.html"
     
-    if not os.path.exists(target_manifest):
-        with open(target_manifest, "w") as f:
-            f.write("System Initialization Placeholder")
-
     manager = DistributedResourceManager(manifest_file=target_manifest)
     
     # Register authorized business infrastructure expansion endpoints
